@@ -23,5 +23,8 @@ libc = "0.2.155"
 [target.'cfg(all(target_arch = "loongarch64", target_os = "linux"))'.dependencies]
 libc = "0.2.155"
 
+[target.'cfg(all(target_arch = "riscv64", target_os = "linux"))'.dependencies]
+libc = "0.2.155"
+
 [target.aarch64-linux-android.dependencies]
 libc = "0.2.155"
